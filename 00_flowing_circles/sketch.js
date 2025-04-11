@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 15); // Soft trail effect
+  background(0, 30); // Soft trail effect
   for (let c of circles) {
     fill(c.color);
     ellipse(c.x, c.y, c.size);
